@@ -6,6 +6,9 @@ The colour scheme changes based on the prominent colours in the song's album tra
 
 If no song is found, then a "Track Not Found" error is displayed.
 
+# View Project
+https://spotifysearchrepo.netlify.app/ 
+
 # Motivation
 
 This project was mainly created as a way for me to learn about APIs as well as to get more familiar with JavaScript. The Spotify API is the core of this project. 
