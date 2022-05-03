@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify Search</title>
+</head>
+<body>
+    <section class="main-section" id="main-section">
+        <h1 class="title" id="title">Spotify <span>Search</span> </h1>
+        <div class="search-bar">
+            <input autocomplete="off" id="search-input" class="search-input" type="text" maxlength="60" placeholder="Enter song name and artist then press enter...">
+            <div class="search-btn" id="search-btn">
+                <i class="fa-solid fa-magnifying-glass search-icon" id="search-icon"></i>
+            </div>
+        </div>
+        <p class="sub"><span id="result"></span></p>
+
+        <a class="btn hide-btn" target="_blank" id="btn-link" href>Play on Spotify</a>
+        <iframe id="play-frame" class="frame" style="border-radius:12px" width="250" height="80" frameBorder="0"></iframe>
+    </section>
+
+    <!-- Font Awesome  -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Node Vibrant JS File  -->
+    <script src="/node_modules/node-vibrant/dist/vibrant.min.js"></script>
+    <!-- Config File  -->
+    <script src="config.js"></script>
+    <!-- Main JS File  -->
+    <script type="module" crossorigin="anonymous" src="room.js"></script>
+</body>
+</html>
